@@ -42,6 +42,9 @@ gftjrejr fghtkeivmr() { fsghyyg.sdf('sdgjtkmvkt'); }
 Note: On this example it's just random letters. Using the repository key 'a' would be 'k', 'b' would be 'f', etc.
 ```
 
+### Different propositions
+- No propositions yet, a link to the file will be added here. If you found a better way to solve this problem, check **Contributing**
+
 ## QA
 > "Would this break the hosting website? For example github?"
 - Github could then read the **repository key** and use it to display the corrected text (check the 4th line, for alternatives)
@@ -57,4 +60,5 @@ Note: On this example it's just random letters. Using the repository key 'a' wou
 
 ## Contributing
 > "This concept is flawed!"
-- Feel free to create a pull request with a different proposition / concept, on how to solve this problem! This is only a concept, it's far from perfect.
+- It's great you found a flaw! This is only a concept, it's far from being the perfect solution.
+- Feel free to create a pull request with a different proposition / concept and place it inside a file on this repository, then add that file to the **Different propositions**.
