@@ -43,7 +43,7 @@ Code before being pushed :
 function helloWorld() { console.log('helloworld'); }
 ```
 
-Code after being pushed (this is what the files would contain, inside git)
+Code after being pushed (this is how the uploaded file would look like)
 ```
 Repository key: 3g348hfkjd
 
@@ -51,4 +51,4 @@ gftjrejr fghtkeivmr() { fsghyyg.sdf('sdgjtkmvkt'); }
 Note: On this example it's just random letters, but the on the actual code 'a' would be 'k' based on the repository key.
 ```
 
-## Feel free to contribute with ideas, or improve this concept!
+## Feel free to contribute/improve/share this concept!
