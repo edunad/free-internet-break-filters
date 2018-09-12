@@ -62,4 +62,4 @@ Note: On this example it's just random letters. Using the repository key 'a' wou
 ### Contributing
 > "This concept is flawed!"
 - It's great you found a flaw! This is only a concept, it's far from being the perfect solution.
-- Feel free to create a pull request with a different proposition / concept and place it inside a file on this repository, then add that file to the **Different propositions**. If the proposition is then voted to be the most correct one, it will then replace the old concept
+- Feel free to create a pull request with a different proposition / concept. If the proposition is then voted to be the most correct one, it will replace the old concept
