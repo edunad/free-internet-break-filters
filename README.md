@@ -1,4 +1,4 @@
-# free-internet-break-filters
+# free-internet-break-filters (hopefully article 13 gets canceled)
 A concept on how automated git filters can be broken, since the new copyright law (Article 13) will be in place. This can be applied to any type of raw code.
 
 ## Filters? Article 13?
