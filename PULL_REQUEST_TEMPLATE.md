@@ -1,5 +1,6 @@
 # Contributing
 - Create a new file with your concept.md inside the propositions folder.
+- Content must be in english
 - Edit README.md and add the direct link to your concept file
 ```Example :
 Different propositions :
