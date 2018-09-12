@@ -28,20 +28,7 @@ The concept it self would be to **obfuscate** the code being ```pushed``` using 
 
 Each repository would generate a unique key.
 
-### QA
-> "Would this break the hosting website? For example github?"
-- Github could then read the **repository key** and use it to display the corrected text (check the 4th line, for alternatives)
-
-> "What about the local code? Or automated builds?"
-- The local code would never be affected, since it's **de-obfuscated** when pulled. Automated build services would use the **repository key**
-
-> "What if, i clone the repository? Would i be able to contribute?"
-- When you **clone/checkout/fork** the repository, you would also **clone the repository's key**, allowing you to **de-obfuscate** the code and make your changes.
-
-> "What if, the hosting websites are forced by law to **de-obfuscate** the code and then filter it?"
-- If that happens, then the repository key would need to be hosted somewere else. This would then break the hosting website, and you would be required to use a **program** to manage pull requests using your machine.
-
-# Concept example
+### Concept example
 Code before being pushed :
 ```
 function helloWorld() { console.log('helloworld'); }
@@ -55,4 +42,19 @@ gftjrejr fghtkeivmr() { fsghyyg.sdf('sdgjtkmvkt'); }
 Note: On this example it's just random letters. Using the repository key 'a' would be 'k', 'b' would be 'f', etc.
 ```
 
-## Feel free to contribute/improve/share this concept!
+## QA
+> "Would this break the hosting website? For example github?"
+- Github could then read the **repository key** and use it to display the corrected text (check the 4th line, for alternatives)
+
+> "What about the local code? Or automated builds?"
+- The local code would never be affected, since it's **de-obfuscated** when pulled. Automated build services would use the **repository key**
+
+> "What if, i clone the repository? Would i be able to contribute?"
+- When you **clone/checkout/fork** the repository, you would also **clone the repository's key**, allowing you to **de-obfuscate** the code and make your changes.
+
+> "What if, the hosting websites are forced by law to **de-obfuscate** the code and then filter it?"
+- If that happens, then the repository key would need to be hosted somewere else. This would then break the hosting website, and you would be required to use a **program** to manage pull requests using your machine.
+
+## Contributing
+> "This concept is flawed!"
+- Feel free to create a pull request with a different proposition / concept, on how to solve this problem! This is only a concept, it's far from perfect.
