@@ -45,7 +45,7 @@ Note: On this example it's just random letters. Using the repository key 'a' wou
 ### Different propositions
 - No propositions yet, a link to the file will be added here. If you found a better way to solve this problem, check **Contributing**
 
-## QA
+### QA
 > "Would this break the hosting website? For example github?"
 - Github could then read the **repository key** and use it to display the corrected text (check the 4th line, for alternatives)
 
@@ -58,7 +58,7 @@ Note: On this example it's just random letters. Using the repository key 'a' wou
 > "What if, the hosting websites are forced by law to **de-obfuscate** the code and then filter it?"
 - If that happens, then the repository key would need to be hosted somewere else. This would then break the hosting website, and you would be required to use a **program** to manage pull requests using your machine.
 
-## Contributing
+### Contributing
 > "This concept is flawed!"
 - It's great you found a flaw! This is only a concept, it's far from being the perfect solution.
-- Feel free to create a pull request with a different proposition / concept and place it inside a file on this repository, then add that file to the **Different propositions**.
+- Feel free to create a pull request with a different proposition / concept and place it inside a file on this repository, then add that file to the **Different propositions**. If the proposition is then voted to be the most correct one, it will then replace the old concept
