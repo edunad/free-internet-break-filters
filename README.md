@@ -44,7 +44,7 @@ Note: On this example it's just random letters. Using the repository key 'a' wou
 ```
 
 ### Different propositions
-- No propositions yet, a link to the file will be added here. If you found a better way to solve this problem, check **Contributing**
+- No propositions yet, a link to the file will be added here. If you found a better way to solve this problem, check [Contributing][Contributing]
 
 ### QA
 > "Would this break the hosting website? For example github?"
