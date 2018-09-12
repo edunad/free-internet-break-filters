@@ -34,7 +34,7 @@ Each repository would generate a unique key, including old and new ones.
 > "What if i clone the repository? Will i be able to contribute?"
 - When you **clone/checkout/fork** the repository, you will also **clone the repository key**, allowing you to **de-obfuscate** the code and make your changes.
 
-> "What about github? What if they are forced by law to **de-obfuscate** the code and then filter it?"
+> "What if the hosting websites are forced by law to **de-obfuscate** the code and then filter it?"
 - If that happens, then the repository key would need to be hosted somewere else. This would then break github's website, but you could still use **git** or a **program** to manage pull requests on your machine.
 
 # Example 
