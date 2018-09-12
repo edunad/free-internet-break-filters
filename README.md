@@ -26,7 +26,7 @@ The concept it self would be to **obfuscate** the code being ```pushed``` using 
 Each repository would generate a unique key, including old and new ones.
 
 > "But this will break the website, for example github"
-- Github could then read the **repository key** and use it to display the corrected text.
+- Github could then read the **repository key** and use it to display the corrected text
 
 > "What about our local code? Or automated builds?"
 - The local code would never be affected, since it's **de-obfuscated** when pulled. Automated build services would use the **repository key**
@@ -45,4 +45,4 @@ gftjrejr fghtkeivmr() { fsghyyg.sdf('sdgjtkmvkt'); }
 Note: On this example it's just random letters, but the on the actual code 'a' would be 'k' based on the repository key.
 ```
 
-## Feel free to contribute with ideas, or improve this document.
+## Feel free to contribute with ideas, or improve this concept!
