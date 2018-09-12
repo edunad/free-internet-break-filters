@@ -22,7 +22,8 @@ To github.com/vollmera/atom.git
  ```
 
 ## Concept
-The concept it self would be to **obfuscate** the code being ```pushed``` using a unique key to each repository and then **de-obfuscate** to make it readable again it on ```pull```. Can be done by shifting each letters based on the key.
+The concept it self would be to **obfuscate** the code being ```pushed``` using a unique key to each repository and then **de-obfuscate** on ```pull``` to make it readable again . Can be done by shifting each letters based on the key.
+Each repository would generate a unique key, including old and new ones.
 
 > "But this will break the website, for example github"
 - Github could then read the **repository key** and use it to display the corrected text.
