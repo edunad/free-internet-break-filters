@@ -25,11 +25,17 @@ To github.com/vollmera/atom.git
 The concept it self would be to **obfuscate** the code being ```pushed``` using a unique key to each repository and then **de-obfuscate** on ```pull``` to make it readable again . Can be done by shifting each letters based on the key.
 Each repository would generate a unique key, including old and new ones.
 
-> "But this will break the website, for example github"
-- Github could then read the **repository key** and use it to display the corrected text
+> "Will this break the hosting website? For example github"
+- Github could then read the **repository key** and use it to display the corrected text (check the 4th line, for alternatives)
 
 > "What about our local code? Or automated builds?"
 - The local code would never be affected, since it's **de-obfuscated** when pulled. Automated build services would use the **repository key**
+
+> "What if i clone the repository? Will i be able to contribute?"
+- When you **clone/checkout/fork** the repository, you will also **clone the repository key**, allowing you to **de-obfuscate** the code and make your changes.
+
+> "What about github? What if they are forced by law to **de-obfuscate** the code and then filter it?"
+- If that happens, then the repository key would need to be hosted somewere else. This would then break github's website, but you could still use **git** or a **program** to manage pull requests on your machine.
 
 # Example 
 Code before being pushed :
