@@ -6,7 +6,7 @@ You can read more about article 13 here:
 - https://www.saveyourinternet.eu/
 - https://blog.github.com/2018-03-14-eu-proposal-upload-filters-code/
 
-Github gave us an example on how the filter would be implemented :
+Github also gave us an example on how the filter would be implemented :
 ```
 $ git push 
 ...
