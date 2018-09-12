@@ -1,4 +1,4 @@
-# free-internet-break-filters (v1.0.0)
+# free-internet-break-filters (v0.0.1)
 A concept on how **automated git filters** can be **broken**, since the new copyright law (Article 13) will be in place. This can be applied to any type of raw code.
 
 ## Filters? Article 13?
@@ -6,7 +6,7 @@ You can read more about article 13 here:
 - https://www.saveyourinternet.eu/
 - https://blog.github.com/2018-03-14-eu-proposal-upload-filters-code/
 
-Github also gave us an example on how the filter would be implemented :
+Github gave us an **example** on how the filter would be implemented :
 ```
 $ git push 
 ...
@@ -21,23 +21,25 @@ To github.com/vollmera/atom.git
  ! [remote rejected] patch-1 -> patch-1 (push declined due to article 13 filters)
  ```
 
-## Concept
-The concept it self would be to **obfuscate** the code being ```pushed``` using a unique key to each repository and then **de-obfuscate** on ```pull``` to make it readable again . Can be done by shifting each letters based on the key.
-Each repository would generate a unique key, including old and new ones.
+## The Concept
+The concept it self would be to **obfuscate** the code being ```pushed``` using a unique key to each repository and then **de-obfuscate** on ```pull``` to make it readable again. This can be done by shifting each letter based on the **repository key**.
 
-> "Will this break the hosting website? For example github"
+Each repository would generate a unique key.
+
+### QA
+> "Would this break the hosting website? For example github?"
 - Github could then read the **repository key** and use it to display the corrected text (check the 4th line, for alternatives)
 
-> "What about our local code? Or automated builds?"
+> "What about the local code? Or automated builds?"
 - The local code would never be affected, since it's **de-obfuscated** when pulled. Automated build services would use the **repository key**
 
-> "What if i clone the repository? Will i be able to contribute?"
-- When you **clone/checkout/fork** the repository, you will also **clone the repository key**, allowing you to **de-obfuscate** the code and make your changes.
+> "What if, i clone the repository? Would i be able to contribute?"
+- When you **clone/checkout/fork** the repository, you would also **clone the repository's key**, allowing you to **de-obfuscate** the code and make your changes.
 
-> "What if the hosting websites are forced by law to **de-obfuscate** the code and then filter it?"
-- If that happens, then the repository key would need to be hosted somewere else. This would then break github's website, but you could still use **git** or a **program** to manage pull requests on your machine.
+> "What if, the hosting websites are forced by law to **de-obfuscate** the code and then filter it?"
+- If that happens, then the repository key would need to be hosted somewere else. This would then break the hosting website, and you would be required to use a **program** to manage pull requests using your machine.
 
-# Example 
+# Concept example
 Code before being pushed :
 ```
 function helloWorld() { console.log('helloworld'); }
@@ -48,7 +50,7 @@ Code after being pushed (this is how the uploaded file would look like)
 Repository key: 3g348hfkjd
 
 gftjrejr fghtkeivmr() { fsghyyg.sdf('sdgjtkmvkt'); }
-Note: On this example it's just random letters, but the on the actual code 'a' would be 'k' based on the repository key.
+Note: On this example it's just random letters. Using the repository key 'a' would be 'k', 'b' would be 'f', etc.
 ```
 
 ## Feel free to contribute/improve/share this concept!
