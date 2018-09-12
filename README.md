@@ -27,6 +27,7 @@ To github.com/vollmera/atom.git
 The concept it self would be to **obfuscate** the code being ```pushed``` using a unique key to each repository and then **de-obfuscate** on ```pull``` to make it readable again. This can be done by shifting each letter based on the **repository key**.
 
 Each repository would generate a unique key.
+This would require some work on git's source code, and might affect how hashes on files are generated.
 
 ### Concept example
 Code before being pushed :
